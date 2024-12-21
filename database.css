@@ -1,0 +1,86 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif; /* Set a readable font */
+    background-color: teal; /* Teal background */
+    margin: 0; /* no margin */
+    padding: 0; /* no padding */
+}
+
+/* Header section styling */
+header {
+    background: darkblue; /* Dark background for the header */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding inside the header */
+    text-align: center; /* Center align text inside the header */
+    box-shadow: 0 4px 6px black (0, 0, 0, 0.1); /* Add a subtle shadow to separate the header */
+}
+
+/* Navigation bar styling */
+nav {
+    background: indigo; /* Slightly lighter background than the header */
+    color: white; /* White text for the links */
+    padding: 10px; /* Add spacing inside the navigation bar */
+    text-align: center; /* Center align the links */
+}
+
+/* Style individual links in the navigation bar */
+nav a {
+    color: white; /* Link text color */
+    margin: 0 15px; /* Space out links horizontally */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style for the container */
+.container {
+    width: 80%; /* 80% for width */
+    margin: 20px auto; /* 20px for margin spacing */
+    background: darkgreen; /* Dark green background */
+    box-shadow: 0 2px 5px black (0, 0, 0, 0.2); /* Black box-shadow for readability */
+    border-radius: 8px; /* 8px for border-radius */
+    overflow: hidden; /* Hidden overflow */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* 100% width */
+    border-collapse: collapse; /* Border Collapse */
+    margin: 20px 0; /* 20px for margin */
+}
+
+th, td {
+    padding: 12px; /* 12px for padding */
+    text-align: left; /* Text aligned on the left */
+    border-bottom: 1px solid whitesmoke; /* 1px for border space */
+}
+
+/* Header row styling */
+th {
+    background-color: darkblue; /* Dark blue for header row background */
+    color: white; /* White for readability */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: whitesmoke; /* White smoke for header row hover */
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px; /* 10px by 15px for padding */
+    margin: 20px; /* 20px for margin */
+    border: none; /* No border */
+    background-color: royalblue; /* Royal blue for button background */
+    color: white; /* White for readability */
+    border-radius: 5px; /* 5px for border-radius */
+    cursor: pointer; /* Pointer for cursor design */
+}
+
+button:hover {
+    background-color: darkblue; /* Dark blue for submit button hover */
+}

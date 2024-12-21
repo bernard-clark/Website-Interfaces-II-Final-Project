@@ -1,0 +1,150 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif; /* Font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: darkgreen; /* Green background */
+    color: white; /* White text for contrast */
+}
+
+/* Header section styling */
+header {
+background: teal; /* Teal background for the header */
+color: white; /* White text for contrast */
+padding: 20px; /* Padding inside the header */
+text-align: center; /* Center align text inside the header */
+box-shadow: 0 4px 6px black (0, 0, 0, 0.1); /* Add a subtle shadow to separate the header */
+}
+
+h1 {
+    color: white; /* White text for readability */
+    text-align: center; /* Center alignment for balanced page */
+}
+
+/* Navigation bar styling */
+nav {
+background: indigo; /* Slightly darker background than the header */
+color: white; /* White text for the links */
+padding: 10px; /* Add spacing inside the navigation bar */
+text-align: center; /* Center align the links */
+}
+
+/* Style individual links in the navigation bar */
+nav a {
+color: white; /* Link text color */
+margin: 0 15px; /* Space out links horizontally */
+text-decoration: none; /* Remove underline from links */
+font-weight: bold; /* Make links bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+text-decoration: underline; /* Underline links on hover */
+}
+
+/* Main container for service cards */
+.services-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next row */
+    justify-content: center; /* Center-align items in the container */
+    padding: 20px; /* Add spacing around the container */
+}
+
+/* Individual service card styles */
+.service-card {
+    background: royalblue; /* Royal blue background for cards */
+    margin: 15px; /* Spacing between cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px black (0, 0, 0, 0.3); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for each card */
+    text-align: center; /* Center-align card content */
+    padding: 20px; /* Add spacing inside the card */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+}
+.service-card:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+/* Popup styles */
+#popup {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Shift element to exact center */
+    background: white; /* White background for contrast */
+    color: navy; /* Dark text for readability */
+    padding: 20px; /* Add spacing inside the popup */
+    border-radius: 10px; /* Rounded corners for the popup */
+    box-shadow: 0 4px 8px black (0, 0, 0, 0.3); /* Subtle shadow for depth */
+    text-align: center; /* Center-align content inside the popup */
+    z-index: 1000; /* Ensure the popup appears on top */
+    width: 80%; /* Responsive width for smaller screens */
+    max-width: 500px; /* Maximum width for larger screens */
+}
+
+/* Overlay styles */
+#overlay {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 0; /* Start at the top of the viewport */
+    left: 0; /* Start at the left of the viewport */
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+    background: black (0, 0, 0, 0.7); /* Semi-transparent black background */
+    z-index: 999; /* Ensure overlay is behind the popup but above other content */
+}
+
+/* Popup title */
+#popup-title {
+    margin-bottom: 10px; /* Add spacing below the title */
+    font-size: 1.5em; /* Slightly larger font for the title */
+}
+
+/* Popup description */
+#popup-description {
+    margin-bottom: 20px; /* Add spacing below the description */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Schedule header */
+#popup h3 {
+    margin-top: 20px; /* Add spacing above the schedule header */
+    font-size: 1.2em; /* Slightly larger font for section header */
+}
+
+/* Schedule list */
+#popup-schedule {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding around the list */
+}
+#popup-schedule li {
+    margin: 5px 0; /* Add spacing between list items */
+    font-size: 0.95em; /* Slightly smaller font size for schedule items */
+}
+
+/* Close button for the popup */
+#popup button {
+    background: royalblue; /* Royal blue background for the button */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add spacing inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    font-size: 1em; /* Standard font size */
+}
+#popup button:hover {
+    background: darkblue; /* Darker blue on hover for feedback */
+}
+
+/* Footer styles */
+footer {
+    background: darkblue; /* Match the header color */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center-align footer content */
+    padding: 10px; /* Add spacing inside the footer */
+    position: fixed; /* Fix the footer at the bottom */
+    width: 100%; /* Full width of the page */
+    bottom: 0; /* Align to the bottom of the viewport */
+}

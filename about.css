@@ -1,0 +1,106 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif; /* Set default font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: teal; /* Teal background */
+    color: black; /* Black text */
+}
+
+/* Header styling */
+header.header {
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    text-align: center; /* Center align text */
+    padding: 1.5rem 0; /* Add spacing around text */
+}
+
+h1 {
+    color: white; /* White text for readability */
+    text-align: center; /* Center align for balanced reading */
+}
+
+h2 {
+    color: white; /* White text for readability */
+    text-align: center; /* Center align for balanced reading */
+}
+
+p {
+    color: white; /* White text for readability */
+    text-align: center; /* Center align for balanced reading */
+}
+
+/* Navigation bar styling */
+nav {
+    background: indigo; /* Slightly darker background than the header */
+    color: white; /* White text for the links */
+    padding: 10px; /* Add spacing inside the navigation bar */
+    text-align: center; /* Center align the links */
+}
+
+/* Style individual links in the navigation bar */
+nav a {
+    color: white; /* Link text color */
+    margin: 0 15px; /* Space out links horizontally */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Main content padding */
+main {
+    padding: 2rem; /* Add space around the main content */
+}
+
+/* About section styles */
+.about-section {
+    margin-bottom: 2rem; /* Add spacing below the section */
+}
+
+.about-section h2 {
+    color: green; /* Green color for section heading */
+}
+
+/* Team section styles */
+.team-section {
+    margin-top: 2rem; /* Add spacing above the section */
+}
+
+/* Grid layout for team member cards */
+.team-grid {
+    display: grid; /* Use CSS grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 1rem; /* Add spacing between grid items */
+}
+
+/* Individual team card styles */
+.team-card {
+    color: white; /* White color for readability */
+    background-color: darkblue; /* Dark background for cards */
+    border: 1px solid black; /* Black border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 1rem; /* Add space inside the card */
+    text-align: center; /* Center align text inside cards */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+}
+
+/* Hover effect for team cards */
+.team-card:hover {
+    box-shadow: 0 4px 8px black (0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Footer styles */
+footer.footer {
+    text-align: center; /* Center align text */
+    padding: 1rem 0; /* Add spacing around footer content */
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    position: fixed; /* Fix footer at the bottom */
+    width: 100%; /* Full width footer */
+    bottom: 0; /* Position at the bottom of the page */
+}

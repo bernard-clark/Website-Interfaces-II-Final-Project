@@ -1,0 +1,77 @@
+/* General page styling */
+body {
+    margin: 0; /* Remove default browser margins */
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+    background: darkgreen; /* Light background for a clean look */
+    color: white; /* Standard dark text for readability */
+}
+
+/* Header section styling */
+header {
+    background: teal; /* Dark background for the header */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding inside the header */
+    text-align: center; /* Center align text inside the header */
+    box-shadow: 0 4px 6px black (0, 0, 0, 0.1); /* Add a subtle shadow to separate the header */
+}
+
+h2 {
+    color: white; /* White text for readability */
+    text-align: center; /* Center align for balanced reading */
+}
+
+/* Navigation bar styling */
+nav {
+    background: indigo; /* Slightly lighter background than the header */
+    color: white; /* White text for the links */
+    padding: 10px; /* Add spacing inside the navigation bar */
+    text-align: center; /* Center align the links */
+}
+
+/* Style individual links in the navigation bar */
+nav a {
+    color: white; /* Link text color */
+    margin: 0 15px; /* Space out links horizontally */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Main content area styling */
+main {
+    padding: 20px; /* Add spacing around the content */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center align content horizontally */
+}
+
+/* Clock container to center the clock */
+.clock-container {
+    margin: 30px 0; /* Add vertical spacing above and below the clock */
+    display: flex; /* Use flexbox to center the clock */
+    justify-content: center; /* Horizontally center the clock */
+    align-items: center; /* Vertically center the clock */
+}
+
+/* Styling for the clock itself */
+.clock {
+    font-size: 4rem; /* Large font size for readability */
+    background: black(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white; /* White text for visibility */
+    padding: 20px 40px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners for the clock */
+    box-shadow: 0 4px 10px black(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Footer section styling */
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the page if there is little content */
+    background: teal; /* Match the header's background */
+    color: white; /* White text for visibility */
+    text-align: center; /* Center align text in the footer */
+    padding: 10px; /* Add spacing inside the footer */
+}

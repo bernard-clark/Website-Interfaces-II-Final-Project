@@ -1,0 +1,99 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif; /* Set a readable font */
+    margin: 20px; /* Add spacing around the page */
+    background-color: darkgreen; /* Green background */
+    color: white; /* White color for readability */
+}
+
+/* Header section styling */
+header {
+    background: teal; /* Teal background for the header */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding inside the header */
+    text-align: center; /* Center align text inside the header */
+    box-shadow: 0 4px 6px black (0, 0, 0, 0.1); /* Add a subtle shadow to separate the header */
+}
+
+h1 {
+    color: white; /* White text for readability */
+    text-align: center; /* Center align for balanced reading */
+}
+
+/* Navigation bar styling */
+nav {
+    background: indigo; /* Slightly darker background than the header */
+    color: white; /* White text for the links */
+    padding: 10px; /* Add spacing inside the navigation bar */
+    text-align: center; /* Center align the links */
+}
+
+/* Style individual links in the navigation bar */
+nav a {
+    color: white; /* Link text color */
+    margin: 0 15px; /* Space out links horizontally */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Styling for the form container */
+form {
+    max-width: 500px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form on the page */
+}
+
+/* Styling for form labels */
+label {
+    display: block; /* Ensure labels are displayed above inputs */
+    margin: 10px 0 5px; /* Add spacing for readability */
+}
+
+/* Styling for input fields, textareas, and buttons */
+input, textarea, button {
+    color: black; /* Whitesmoke input for visability */
+    width: 100%; /* Make inputs and buttons stretch to match the form width */
+    padding: 10px; /* Add internal spacing */
+    margin-bottom: 15px; /* Add spacing below each element */
+    border: 1px solid black; /* Black border for input fields */
+    border-radius: 5px; /* Round the corners of inputs and buttons */
+}
+
+/* Styling for the submit button */
+button {
+    background-color: royalblue; /* Royal blue background for the button */
+    color: white; /* White text for contrast */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change the mouse pointer to a hand on hover */
+}
+
+/* Change the button background color when hovered */
+button:hover {
+    background-color: darkblue; /* Darker blue when hovering */
+}
+
+/* Styling for error messages */
+.error {
+    color: red; /* Red text to indicate errors */
+    font-size: 0.9em; /* Slightly smaller text size */
+}
+
+/* Styling for success messages */
+.success {
+    color: green; /* Green text to indicate success */
+    font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Styling for the list of submitted applications */
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
